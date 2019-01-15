@@ -1,103 +1,178 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html>
 
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <link rel="shortcut icon" href="https://pbs.twimg.com/profile_images/957951104481820672/IsPccmb-_400x400.jpg">
-
-  <title>卒業研究学生調査書</title>
-  <link href="./卒業研究学生調書_files/roundedxzmpluszc.css" rel="stylesheet">
-  <style>
-    .content {
-      background-color: #fff;
-      width: 70%;
-      margin: 10px auto;
-      border: 1px;
-      padding: 40px;
-    }
-
-    h1 {
-      text-align: center;
-      margin: 10px;
-    }
-
-    h2 {
-      display: inline-block;
-      border-bottom: 3px solid #08088a;
-    }
-
-    .info {
-      text-align: right;
-      border-bottom: 1px solid #d1d1d1;
-    }
-
-    .junbi>li {
-      font-size: 20px;
-    }
-
-    .intern>li {
-      list-style-type: square
-    }
-
-    body {
-      background: linear-gradient(#05FBFF, #1E00FF)
-    }
-  </style>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="all.css">
+  <title>My test page</title>
 </head>
 
 <body>
-  <header>
-    <div class="content">
-      <h1>卒業研究学生調査書</h1>
-      <div class="info">
-        <p>情報アーキテクチャ学科<br>情報システムコース<br>1016141 滝谷和希</p>
-      </div>
-      <h2>希望研究領域</h2>
-      <ul>
-        <li>UI/UX</li>
-        <li>認知心理学</li>
-        <li>センサ</li>
-        <li>情報デザイン</li>
-        <li>画像認識・処理</li>
-      </ul>
-      <h2>希望研究テーマ</h2>
-      <ul>第一希望：一芸研究（塚田 浩二先生）</ul>
-      <ul>第二希望：人を拡張（進化）させる研究（竹川 佳成先生）</ul>
-      <ul>第三希望：タイミングパターンと知覚・認知・社会的判断の関係性（中田 隆行先生）</ul>
-      <ul>第四希望：文書画像に対する画像処理、画像認識、内容解析（寺沢 憲吾先生）</ul>
-      </ul>
-      <h2>準備状況</h2>
-      <ul>
-        <div class="junbi">
-          <li>単位取得状況</li>
-          <p>取得済み:114単位</p>
-          <p>履修中:10単位(プロジェクト学習含む)</p>
-          <li>インターンシップ</li>
-          <div class="intern">
-            <ul>
-              <li>株式会社アジェンダ<br>-愛嬌のあるPepperにするアプリ開発を行った。</li>
-              <li>ダイアモンドヘッド株式会社<br>-在庫コントロールシステム（SCS）の業務を行った。</li>
-              <li>NDソフトウェア株式会社<br>-実際の介護福祉現場を視察し、介護福祉向けアプリ企画を提案した。</li>
-            </ul>
-          </div>
-          <p></p>
-          <li>プロジェクト学習</li>
-          <p>future body<br>-人間の知覚を補ったり、拡張したりするモノや経験をデザインをするという知覚デザインを行っている。</p>
-          <li>使ったことがある言語</li>
-          <p>Processing, C, Java, HTML, CSS, Python</p>
-          <li>所属サークル</li>
-          <ul>
-            <li>軽音楽部<br>-先輩や後輩だけではなく、他大学の軽音楽部員とバンドを組み、合同ライブを行った。
-            </li>
-            <li>写真部<br>-函館マラソンやYOSAKOIソーラン祭（息吹）、本学のオープンキャンパスのカメラマンとして撮影を行った。</li>
-            <li>FUNラジ<br>-部長を務め、FMいるかの社員たちとラジオ番組の企画・運営を行った。</li>
-          </ul>
+  <div style="text-align:center">
+    <a href="index.html">
+      <img src="images/top.png" alt="top" width="700px">
+    </a>
+  </div>
+  <div class="tabs">
+    <input id="about" type="radio" name="tab_item" checked>
+    <label class="tab_item" for="about">About</label>
+    <input id="works" type="radio" name="tab_item">
+    <label class="tab_item" for="works">Works</label>
+    <input id="contact" type="radio" name="tab_item">
+    <label class="tab_item" for="contact">Contact</label>
+    <div class="tab_content" id="about_content">
+      <div class="tab_content_description">
+        <div style="text-align:center">
+          <img src="images/about.jpg" alt="kazukitakiya">
         </div>
-      </ul>
-      <h2>進路希望</h2>
-      <p>就職：札幌</p>
+        <p class="c-txtsp"><氏名>滝谷和希<br>
+                           <歳>1997/06/24<br>
+                           <使用言語> Processing, C, Java, HTML, CSS, JavaScript, Python<br>
+                           <趣味> 写真撮影, 音楽, Live, ギター, ラジオ, ドライブ, 旅行<br>
+                           <スキル> Photoshop,<br>
+                           <色々> 北海道札幌平岸高等学校卒、公立はこだて未来大学に在学中。「オープンスペース、オープンマインド」という精神でWEBデザインを学んでいる。
+
+      </div>
     </div>
-  </header>
+    <div class="tab_content" id="works_content">
+      <div class="tab_content_description">
+        <a href="work012.html">
+          <div class="pic animation">
+            <img class="l-right" src="images/work011.jpg" alt="インターン" width="100%">
+            <div class="mask1"></div>
+            <div class="mask2"></div>
+            <div class="caption">
+              <p>インターン</p>
+            </div>
+          </div>
+        </a>
+        <a href="work011.html">
+          <div class="pic animation">
+            <img class="l-right" src="images/work010.jpg" alt="futurebody" width="100%">
+            <div class="mask1"></div>
+            <div class="mask2"></div>
+            <div class="caption">
+              <p>future body</p>
+            </div>
+          </div>
+        </a>
+        <a href="work010.html">
+          <div class="pic animation">
+            <img class="l-right" src="images/work009.jpg" alt="スポット" width="100%">
+            <div class="mask1"></div>
+            <div class="mask2"></div>
+            <div class="caption">
+              <p>スポット</p>
+            </div>
+          </div>
+        </a>
+        <a href="work009.html">
+          <div class="pic animation">
+            <img class="l-right" src="images/work008.jpg" alt="ポートフォリオサイト" width="100%">
+            <div class="mask1"></div>
+            <div class="mask2"></div>
+            <div class="caption">
+              <p>ポートフォリオサイト</p>
+            </div>
+          </div>
+        </a>
+        <a href="work008.html">
+          <div class="pic animation">
+            <img class="l-right" src="images/work008.png" alt="割引Pepper" width="100%">
+            <div class="mask1"></div>
+            <div class="mask2"></div>
+            <div class="caption">
+              <p>割引Pepper</p>
+            </div>
+          </div>
+        </a>
+        <a href="work007.html">
+          <div class="pic animation">
+            <img class="l-right" src="images/work007.png" alt="2018新入生歓迎会スライドショー" width="100%">
+            <div class="mask1"></div>
+            <div class="mask2"></div>
+            <div class="caption">
+              <p>2018新入生歓迎会<br>スライドショー</p>
+            </div>
+          </div>
+        </a>
+        <a href="work006.html">
+          <div class="pic animation">
+            <img class="l-right" src="images/work006-1.png" alt="2018新入生歓迎会スライドショー" width="100%">
+            <div class="mask1"></div>
+            <div class="mask2"></div>
+            <div class="caption">
+              <p>2018FUNラジチラシ</p>
+            </div>
+          </div>
+        </a>
+        <a href="work005.html">
+          <div class="pic animation">
+            <img class="l-right" src="images/work005.jpg" alt="保つゲーム" width="100%">
+            <div class="mask1"></div>
+            <div class="mask2"></div>
+            <div class="caption">
+              <p>保つゲーム</p>
+            </div>
+          </div>
+        </a>
+        <a href="work004.html">
+          <div class="pic animation">
+            <img class="l-right" src="images/work004.png" alt="2017新入生歓迎会スライドショー" width="100%">
+            <div class="mask1"></div>
+            <div class="mask2"></div>
+            <div class="caption">
+              <p>2017新入生歓迎会<br>スライドショー</p>
+            </div>
+          </div>
+        </a>
+        <a href="work003.html">
+          <div class="pic animation">
+            <img class="l-right" src="images/work003-1.png" alt="2017FUNラジチラシ" width="100%">
+            <div class="mask1"></div>
+            <div class="mask2"></div>
+            <div class="caption">
+              <p>2017FUNラジチラシ</p>
+            </div>
+          </div>
+        </a>
+        <a href="work002.html">
+          <div class="pic animation">
+            <img class="l-right" src="images/work002.png" alt="拡張現実ピタゴラ装置" width="100%">
+            <div class="mask1"></div>
+            <div class="mask2"></div>
+            <div class="caption">
+              <p>拡張現実ピタゴラ装置</p>
+            </div>
+          </div>
+        </a>
+        <a href="work001.html">
+          <div class="pic animation">
+            <img class="l-right" src="images/top.png" alt="ブロック崩しゲーム" width="100%">
+            <div class="mask1"></div>
+            <div class="mask2"></div>
+            <div class="caption">
+              <p>ブロック崩しゲーム</p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="tab_content" id="contact_content">
+      <div class="tab_content_description">
+
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdLy-hQbJnqrF8_CVEKkvXPcC_MSQZwZPtTlov5oieDOUa-Ew/viewform?embedded=true" width="100%" height=705" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます...
+        </iframe>
+
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer_in l-center">
+      <small>&copy;2019 Kazuki Takiya</small>
+    </div>
+  </footer>
 </body>
 
 </html>
