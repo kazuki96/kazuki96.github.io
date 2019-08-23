@@ -75,6 +75,7 @@ input[name="tab_item"] {
   width: 270px;
   height: 270px;
   overflow: hidden;
+  background: black;
 }
 
 .pic img {
