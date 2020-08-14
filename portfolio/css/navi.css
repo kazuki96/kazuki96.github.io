@@ -10,6 +10,7 @@
     width: 100%;
     bottom: 0;
 z-index:1;
+color: gray;
   }
 
   nav ul .top{
@@ -33,7 +34,7 @@ z-index:1;
   }
 
   nav a:hover{
-    background: #f0f0f0;;
+    background: #C0C0C0;
   }
 
   .left{
@@ -119,7 +120,7 @@ nav a{
 }
 
 nav a:hover{
-  background: #f0f0f0;;
+  background: #C0C0C0;
 }
 .dami{
   width: 100%;

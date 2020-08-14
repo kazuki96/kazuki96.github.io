@@ -7,6 +7,9 @@ body{
 .yomi{
   font-size: 17px;
 }
+nav a{
+  color: gray;
+}
 .title{
   position: relative;
    height: 100vh;
@@ -204,6 +207,6 @@ width: 100%;
 }
 
 footer{
-  background-color: #f0f0f0;;
+  background-color: #C0C0C0;
   text-align:center;
 }
