@@ -1,0 +1,129 @@
+@media screen and (max-width: 480px){
+  .main{
+  height: 96vh;
+  background-image: url("../img/top.jpg");
+  }
+
+  nav{
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+z-index:1;
+  }
+
+  nav ul .top{
+    float: left;
+    width: 50%;
+
+    list-style-type: none;
+  }
+
+  nav ul .other{
+    float: left;
+    width: 25%;
+    list-style-type: none;
+  }
+
+  nav a{
+     text-decoration: none;
+     text-align: center;
+     display: block;
+     padding: 15px 0px;
+  }
+
+  nav a:hover{
+    background: #f0f0f0;;
+  }
+
+  .left{
+    width: 100%;
+
+    min-height: auto;
+    margin-bottom: 40px;
+
+  }
+  .face{
+    margin-top: 40px;
+    width: 100%;
+    margin-bottom: -10px;
+  }
+  .right {
+    display: inline-block;
+    vertical-align:top;
+    width: 100%;
+  background: #f0f0f0;
+  }
+
+  .workpic {
+    display: inline-block;
+    width: 50%;
+    object-fit: contain;
+
+  }
+  .detail {
+    margin: 5px;
+  }
+
+
+  footer{
+    margin-bottom: 49px;
+  }
+
+  .movie{
+    object-fit: cover;
+    width: 100%;
+    height: 120px;
+    max-width: 320px;
+
+  }
+
+  .modal{
+      display: none;
+      height: 95vh;
+      position: fixed;
+      top: 0;
+      width: 100%;
+  }
+}
+
+@media screen and (min-width: 481px){
+nav{
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  opacity: 0.9;
+  z-index:1;
+}
+
+nav ul .top{
+  float: left;
+  width: 50%;
+
+  list-style-type: none;
+}
+
+nav ul .other{
+  float: left;
+  width: 25%;
+  list-style-type: none;
+}
+
+nav a{
+   text-decoration: none;
+   text-align: center;
+   background-color: white;
+   display: block;
+   padding: 15px 0px;
+}
+
+nav a:hover{
+  background: #f0f0f0;;
+}
+.dami{
+  width: 100%;
+  height: 54px;
+
+}
+}
