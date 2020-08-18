@@ -206,6 +206,14 @@ width: 100%;
   width: 80%;
 }
 
+.overview{
+  margin-top: 20px;
+}
+
+.overview ul{
+  margin-left: 20px;
+}
+
 footer{
   background-color: #C0C0C0;
   text-align:center;
